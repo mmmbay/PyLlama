@@ -1,0 +1,80 @@
+# Virtual environment
+venv/
+.env
+.venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / Build files
+*.egg-info/
+build/
+dist/
+
+# Logs and temp files
+*.log
+*.pck
+*.sqlite3
+*.db
+
+# Ignore IDE-specific settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python bytecode and compiled files
+*.pyc
+*.pyo
+.DS_Store
+
+# Ignore test coverage and profiling data
+.coverage
+*.cover
+*.py,cover
+nosetests.xml
+coverage.xml
+*.lprof
+.prof
+
+# Ignore dependency files
+pip-log.txt
+pip-delete-this-directory.txt
+requirements.txt
+
+# Ignore GitHub workflows cache
+.github/
+
+# Ignore pytest cache
+.pytest_cache/
+
+# Ignore generated documentation
+docs/_build/
+
+# Ignore output files
+output.pck
+
+# Ignore image files
+*.jpg
+*.jpeg
+*.svg
+*.png
+
+# But do NOT ignore images inside the doc/ directory
+!doc/**/*.jpg
+!doc/**/*.jpeg
+!doc/**/*.svg
+!doc/**/*.png
+
+# Ignore any local secrets
+.env
+*.key
+*.pem
+
+# Ignore temporary files
+*.tmp
