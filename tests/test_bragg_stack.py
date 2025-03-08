@@ -2,11 +2,11 @@ import numpy as np
 from hypothesis import given, settings, strategies as st
 import hypothesis.extra.numpy as npst
 import pytest
-from pyllama.examples.Yeh_figure_4ab_Bragg_stack import *
+from pyllama.examples.Figure_4ab_Bragg_stack import *
 
 """
 This script calculates the s and p reflection spectra of a Bragg stack with PyLlama and compare the results with 
-formulas from Pochi Yeh.
+formulas from P. Yeh (Optical Waves in Layered Media, ISBN: 978-0-471-73192-4, chapter 8).
 """
 
 
