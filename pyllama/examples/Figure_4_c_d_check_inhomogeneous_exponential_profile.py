@@ -186,28 +186,28 @@ L = 100  # total thickness of the layer in nm
 xvar_list = np.linspace(0.01, 1, 100)
 
 # Initialisation of figures
-fig_index_expo = plt.figure(0, constrained_layout=False, figsize=(2.7, 2))  # paper figsize=(3, 2)
+fig_index_expo = plt.figure(0, constrained_layout=False)  # paper figsize=(3, 2)
 widths = [1]
 heights = [1]
 gs = fig_index_expo.add_gridspec(1, 1, width_ratios=widths, height_ratios=heights)
 ax_index_expo = fig_index_expo.add_subplot(gs[0, 0])
 plt.title("Exponential")
 
-fig_spec_expo = plt.figure(1, constrained_layout=False, figsize=(2.7, 2))  # paper figsize=(3, 2)
+fig_spec_expo = plt.figure(1, constrained_layout=False)  # paper figsize=(3, 2)
 widths = [1]
 heights = [1]
 gs = fig_spec_expo.add_gridspec(1, 1, width_ratios=widths, height_ratios=heights)
 ax_spec_expo = fig_spec_expo.add_subplot(gs[0, 0])
 plt.title("Exponential")
 
-fig_index_hyper = plt.figure(2, constrained_layout=False, figsize=(2.7, 2))  # paper figsize=(3, 2)
+fig_index_hyper = plt.figure(2, constrained_layout=False)  # paper figsize=(3, 2)
 widths = [1]
 heights = [1]
 gs = fig_index_hyper.add_gridspec(1, 1, width_ratios=widths, height_ratios=heights)
 ax_index_hyper = fig_index_hyper.add_subplot(gs[0, 0])
 plt.title("Hyperbolic")
 
-fig_spec_hyper = plt.figure(3, constrained_layout=False, figsize=(2.7, 2))  # paper figsize=(3, 2)
+fig_spec_hyper = plt.figure(3, constrained_layout=False)  # paper figsize=(3, 2)
 widths = [1]
 heights = [1]
 gs = fig_spec_hyper.add_gridspec(1, 1, width_ratios=widths, height_ratios=heights)
